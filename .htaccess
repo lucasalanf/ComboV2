@@ -1,0 +1,66 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+RewriteRule ^internet-fibra-sao-caetano-do-sul/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-presidente-prudente/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-sao-jose-do-rio-preto/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-taubate/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-sao-jose-dos-campos/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-jacarei/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-campinas/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-ribeirao-preto/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-guarulhos/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-araraquara/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-bauru/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-aruja/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-piracicaba/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-indaiatuba/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-sorocaba/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-osasco/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-suzano/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-maua/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-jundiai/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-varzea-paulista/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-santo-andre/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-sao-vicente/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-santos/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-mogi-das-cruzes/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-sao-bernardo-do-campo/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-votorantim/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-diadema/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-ribeirao-pires/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-itaquaquecetuba/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-praia-grande/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-americana/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-itatiba/$ paginaCidade.php [L]
+RewriteRule ^internet-fibra-sao-paulo/$ paginaCidade.php [L]
+
+
+RewriteRule ^vivo-assine-agora-ligue-gratis/$ paginasStaticas/vivo-assine-agora-ligue-gratis.php [L]
+RewriteRule ^super-hd-38-canais/$ paginasStaticas/super-hd-38-canais.php [L]
+RewriteRule ^ultra-hd-59-canais/$ paginasStaticas/ultra-hd-59-canais.php [L]
+RewriteRule ^ultimate-hd-83-canais/$ paginasStaticas/ultimate-hd-83-canais.php [L]
+RewriteRule ^vivo-fibra-15-mega/$ paginasStaticas/vivo-fibra-15-mega.php [L]
+RewriteRule ^vivo-fibra-35-mega/$ paginasStaticas/vivo-fibra-35-mega.php [L]
+RewriteRule ^vivo-fibra-50-mega/$ paginasStaticas/vivo-fibra-50-mega.php [L]
+RewriteRule ^vivo-fibra-100-mega/$ paginasStaticas/vivo-fibra-100-mega.php [L]
+RewriteRule ^vivo-fibra-200-mega/$ paginasStaticas/vivo-fibra-200-mega.php [L]
+RewriteRule ^vivo-fibra-300-mega/$ paginasStaticas/vivo-fibra-300-mega.php [L]
+RewriteRule ^combo/$ paginasStaticas/combo.php [L]
+RewriteRule ^cadastro-concluido/$ paginasStaticas/cadastro-concluido.php [L]
+
+
+
+
+redirect 301 http://combotelefonetvinternet.com.br/vivo-hd-tv/ http://combotelefonetvinternet.com.br/
+redirect 301 http://combotelefonetvinternet.com.br/vivo-fixo/ http://combotelefonetvinternet.com.br/
+redirect 301 http://combotelefonetvinternet.com.br/vivo-internet/ http://combotelefonetvinternet.com.br/
+redirect 301 http://combotelefonetvinternet.com.br/combo-vivo/ http://combotelefonetvinternet.com.br/
+redirect 301 http://combotelefonetvinternet.com.br/vivo/ http://combotelefonetvinternet.com.br/
+redirect 301 http://combotelefonetvinternet.com.br/a-vivo/ http://combotelefonetvinternet.com.br/
+
+
+
+
+</IfModule>
+

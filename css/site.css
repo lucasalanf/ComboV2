@@ -1,0 +1,783 @@
+﻿
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('/powercomboV2/fonts/opensans_bold_macroman/OpenSans-Bold-webfont.eot');
+    src: url('/powercomboV2/fonts/opensans_bold_macroman/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('/powercomboV2/fonts/opensans_bold_macroman/OpenSans-Bold-webfont.woff') format('woff'), url('/powercomboV2/fonts/opensans_bold_macroman/OpenSans-Bold-webfont.ttf') format('truetype'), url('/powercomboV2/fonts/opensans_bold_macroman/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('/powercomboV2/fonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot');
+    src: url('/powercomboV2/fonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('/powercomboV2/fonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff') format('woff'), url('/powercomboV2/fonts/opensans_regular_macroman/OpenSans-Regular-webfont.ttf') format('truetype'), url('/powercomboV2/fonts/opensans_regular_macroman/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'OfficinaSerif_Bold';
+    src: url('/powercomboV2/fonts/officinaserif-bold-webfont-webfont.eot');
+    src: url('/powercomboV2/fonts/officinaserif-bold-webfont-webfont.eot?#iefix') format('embedded-opentype'), url('/powercomboV2/fonts/officinaserif-bold-webfont-webfont.woff2') format('woff2'), url('/powercomboV2/fonts/officinaserif-bold-webfont-webfont.woff') format('woff'), url('/fonts/officinaserif-bold-webfont-webfont.ttf') format('truetype'), url('/powercomboV2/fonts/officinaserif-bold-webfont-webfont.svg#officinaserifbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'OfficinaSerif_Book';
+    src: url('/powercomboV2/fonts/officinaserif-book-webfont-webfont.eot');
+    src: url('/powercomboV2/fonts/officinaserif-book-webfont-webfont.eot?#iefix') format('embedded-opentype'), url('/powercomboV2/fonts/officinaserif-book-webfont-webfont.woff2') format('woff2'), url('/powercomboV2/fonts/officinaserif-book-webfont-webfont.woff') format('woff'), url('/fonts/officinaserif-book-webfont-webfont.ttf') format('truetype'), url('/powercomboV2/fonts/officinaserif-book-webfont-webfont.svg#itc_officina_serif_bookRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.row {
+    margin: 0
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: OfficinaSerif_Bold;
+}
+
+body {
+    overflow-x: hidden
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.topo {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+
+    .topo .logo {
+        float: left
+    }
+
+    .topo .fone {
+        margin: 2.5% 0 0 0;
+        float: left;
+        display: inline;
+        font-size: 2.0em !important;
+        color: #666;
+        height: 66px;
+    }
+
+        .topo .fone i {
+            float: left;
+            font-size: 38px;
+            color: #FFF;
+            background: #660099;
+            border-radius: 30px;
+            padding: 10px;
+        }
+
+.fone .right {
+    float: left;
+    margin-left: 10px;
+    margin-top: 13px;
+}
+
+.fone span {
+    font-size: 0.7em !important;
+    color: #666;
+    font-family: 'open_sansregular';
+}
+
+.controlaLarguraMin {
+    width: 80%;
+    background: #660099;
+    height: 78px;
+    float: right;
+    border-radius: 50px;
+    margin-right: 15px;
+    border: 4px solid #660099;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.pacotesVivo span {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    color: #666;
+    text-transform: uppercase;
+    font-family: 'open_sansbold' !important;
+}
+
+.ligamosParavc {
+    margin-top: 14px !important;
+    color: #FFF;
+    font-size: 19px;
+}
+
+    .ligamosParavc a {
+        color: #FFF;
+        text-decoration: none
+    }
+
+.controlaLarguraMin:hover {
+    background: #fff;
+    border: 4px solid #660099;
+}
+
+    .controlaLarguraMin:hover a {
+        color: #660099
+    }
+
+.flexslider {
+    float: left;
+    width: 100%
+}
+
+.flex-control-nav {
+    display: none
+}
+
+.faixa {
+    width: 100%;
+    padding: 6px 0;
+    background-color: #ff9900;
+}
+
+.titulo {
+    font-size: 2.7em;
+    line-height: 1em;
+    font-weight: bold;
+    color: #fff !important;
+    text-align: center;
+    margin-top: 10px !important;
+}
+
+
+/*Planos*/
+.planos {
+    float: left;
+    width: 100%
+}
+
+.boxPlanos {
+    float: left;
+    padding: 0.5%;
+}
+
+    .boxPlanos .backCinza {
+        float: left;
+        width: 100%;
+        background-color: #f1f1f1;
+        padding-bottom: 20px;
+    }
+
+.boxPlanos {
+    float: left
+}
+
+    .boxPlanos .boxHeader {
+        float: left;
+        width: 100%;
+        background-color: #ff9900;
+        padding-bottom: 25px;
+    }
+
+.planos h3 {
+    font: 33px OfficinaSerif_Bold;
+    color: #660099;
+    text-align: left;
+    padding: 47px 0 50px 0;
+
+    margin-top: 0;
+}
+
+.boxPlanos .boxHeader h4 {
+    font-size: 26px;
+    text-align: center;
+    padding: 16px 0 0 0;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    color: #fff;
+    font-family: OfficinaSerif_Bold;
+}
+
+    .boxPlanos .boxHeader h4.telefonia {
+        font-size: 20px;
+    }
+
+.boxPlanos .boxHeader span {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: OfficinaSerif_Bold;
+    font-size: 20px;
+    color: #fff;
+}
+
+.boxPlanos .alinhaBotao {
+    float: left;
+    width: 100%;
+    text-align: center
+}
+
+.btn {
+    margin-top: 38px;
+    color: #FFF;
+    display: inline-block;
+    text-align: center;
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: #660099;
+    font-family: OfficinaSerif_Bold;
+    height: 41px;
+    font-size: 18px;
+}
+
+    .btn:hover, .btn:focus {
+        background-color: #590284;
+        color: #FFF;
+    }
+
+
+.boxCaixaTV {
+    float: left;
+    width: 100%;
+}
+
+    .boxCaixaTV h3 {
+        float: left;
+        width: 90%;
+        color: #6b6b6b !important;
+        padding: 31px 0 0 0;
+        position: relative;
+        margin: 0 0px;
+        margin-bottom: 20px;
+        margin-left: 5%;
+        font-weight: bold !important;
+        text-align: center;
+    }
+
+        .boxCaixaTV h3 span {
+            padding: 0 20px;
+            text-align: center;
+            font-size: 26px;
+            background: #f1f2f3;
+            position: relative;
+            z-index: 99;
+        }
+
+        .boxCaixaTV h3:after {
+            content: "";
+            border-top: 1px solid #6b6b6b;
+            width: 100%;
+            float: left;
+            left: 0;
+            top: 52px;
+            position: absolute;
+        }
+
+    .boxCaixaTV ul {
+        float: left;
+        width: 100%;
+        list-style: none;
+        padding: 0 15px;
+    }
+
+        .boxCaixaTV ul li {
+            float: left;
+            width: 100%;
+            margin: 5px;
+            color: #23282d;
+            font-family: 'OfficinaSerif_Book';
+            font-size: 16px;
+        }
+
+            .boxCaixaTV ul li strong {
+                font-size: 20px;
+            }
+
+            .boxCaixaTV ul li img {
+                float: left;
+                margin-right: 10px;
+                margin-top: 0px;
+            }
+
+            .boxCaixaTV ul li:last-child img {
+                margin-top: 5px;
+            }
+
+.boxCaixaInternet ul li:last-child img {
+    margin-top: 0;
+}
+
+
+.boxCaixaTV .controle {
+    float: left;
+    width: 100%;
+    background: url(/powercomboV2/img/offers/canais.png) no-repeat left;
+    height: 108px;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-top: 20px;
+    background-position-y: 3px;
+}
+
+    .boxCaixaTV .controle.maisItens li{
+        margin-top:0
+    }
+        .boxCaixaTV .controle.maisItens li:first-child {
+            margin-top: -7px;
+        }
+
+    .boxCaixaTV .controle li {
+        padding-left: 15px;
+    }
+
+.boxCaixaTelefones ul li span {
+    float: left;
+    width: 80%;
+}
+
+
+.rodape {
+    width: 100%;
+    background-color: #ff9900;
+    padding: 25px 0;
+    margin-top: 35px;
+    float: left;
+}
+
+    .rodape h2 {
+        font-size: 1.6em;
+        color: #fff !important;
+        font-family: 'open_sansbold';
+        margin: 0 !important;
+        padding: 0 15px;
+    }
+
+    .rodape a {
+        color: #fff;
+        line-height: 32px;
+        margin: 0 2px 0 0;
+        text-decoration: none;
+    }
+
+    .rodape p {
+        margin-bottom: 0;
+        padding: 0 15px;
+        float: left;
+    }
+
+    .rodape .redesSociais {
+        float: right;
+    }
+
+        .rodape .redesSociais ul {
+            list-style: none;
+            padding: 0;
+            float: left;
+            width: 100%;
+        }
+
+            .rodape .redesSociais ul li {
+                padding: 0;
+                float: left;
+                margin: 0 10px;
+                cursor: pointer;
+            }
+
+                .rodape .redesSociais ul li.facebook {
+                    background: url(/powercomboV2/img/redesSociais.png) no-repeat -94px 0px;
+                    width: 24px;
+                    height: 24px;
+                }
+
+                .rodape .redesSociais ul li.twitter {
+                    background: url(/powercomboV2/img/redesSociais.png) no-repeat -32px 0px;
+                    width: 24px;
+                    height: 24px;
+                }
+
+footer {
+    width: 100%;
+    padding: 0% 0 2% 0;
+    float: left;
+}
+
+    footer .container {
+        border-top: 0 solid #e5e5e5;
+        padding-top: 2%;
+    }
+
+    footer .logoMini {
+        float: left;
+        display: inline;
+        width: 102px;
+        height: 72px;
+        background: url(/powercomboV2/img/logo-vivo-mini.jpg) no-repeat left top;
+        margin-left: 15px;
+    }
+
+    footer .right {
+        float: right;
+        display: inline;
+        width: 313px;
+        margin-right: 15px;
+    }
+
+        footer .right p {
+            width: 313px;
+            font-size: 0.9em;
+            color: #999;
+            margin: 0 0 2% 0;
+            text-align: right;
+            line-height: 1.3em;
+        }
+
+
+.btnTelefoneLigamos {
+    position: fixed;
+    right: -173px;
+    top: 250px;
+    background-color: #660099;
+    width: 347px;
+    height: 81px;
+    z-index: 9999999;
+    
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    cursor: pointer;
+}
+
+.assinePorTelefone {
+    float: left;
+    margin: 14px;
+}
+
+    .assinePorTelefone i {
+        font-size: 60px;
+        float: left;
+        color: #FFF;
+    }
+
+    .assinePorTelefone span, .telAnimacao span {
+        font-family: OfficinaSerif_Bold;
+        float: left;
+        width: 73px;
+        margin-left: 19px;
+        margin-top: 13px;
+        font-size: 13px;
+        color: #FFF;
+        text-transform: uppercase;
+    }
+
+.telAnimacao {
+    float: right;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 16px;
+    color: #FFF;
+    width: 150px;
+}
+
+    .telAnimacao span {
+        float: left;
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+        .telAnimacao span + span {
+            font-size: 12px;
+            text-align: left;
+            text-indent: 31px;
+        }
+
+
+/*MODAL LIGAMOS*/
+.ligamos {
+    margin-bottom: 35px;
+}
+
+.remodal input {
+    border-radius: 5px;
+    width: 100% !important;
+    padding: 5px;
+    font-size: 0.9em;
+    color: #999;
+    display: block;
+    background-color: #fff;
+    margin: 1% 0 0 0;
+    border: 3px solid #f1f1f1;
+}
+
+
+.remodal .inbound-button-submit {
+    width: 100%
+}
+
+.remodal .modal1Title {
+    margin-top: 0px !important
+}
+
+.input_telefone {
+    width: 70%;
+    float: right;
+    margin-bottom: 4px;
+}
+
+.input_ddd {
+    float: left;
+    width: 25%;
+    margin-top: 4px;
+}
+
+.remodal .ddd_home {
+    float: left;
+    width: 25% !important;
+    margin-top: 4px;
+}
+
+.remodal .telefone_home {
+    width: 70% !important;
+    float: right;
+    margin-bottom: 15px !important;
+    margin-top: 4px;
+}
+
+.remodal-wrapper .telefone {
+    margin-top: 2%
+}
+
+.submitLigamos:hover {
+    background: #609;
+    color:#FFF
+}
+
+.conteudoPrincipal {
+    font-family: "open_sansregular";
+    font-size: 14px;
+    color: #23282d;
+    margin-top:45px;
+    float:left; width:100%;
+}
+    .conteudoPrincipal p {
+        color: #23282d
+    }
+
+
+.conteudoPrincipal h2 {
+    color: #47007A !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    margin-top: 30px !important;
+    font-family: OfficinaSerif_Bold !important;
+}
+
+    .conteudoPrincipal .h3, .conteudoPrincipal h3 {
+        font-size: 24px;
+        color: #47007a !important;
+        font-weight: bold !important;
+    }
+
+b, strong {
+    font-weight: 700;
+}
+
+.conteudoPrincipal a {
+    color: #666;
+    text-decoration: underline;
+}
+
+blockquote {
+    border-left: 5px solid #23282d !important;
+}
+
+.boxInternet {
+    padding: 0 !important;
+    margin-bottom: 10px;
+    height: 104px;
+}
+
+.boxCanais {
+    float: left;
+    width: 100%;
+    margin: 40px 0;
+    border: 1px solid #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+    background: #f5f5f5;
+}
+
+.boxInternet .leftCanais {
+    height: 100%;
+    background: #47007A;
+    text-align: center;
+    vertical-align: middle;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: table;
+}
+.leftCanais {
+    float: left;
+    width: 40%;
+}
+
+.boxInternet .alinhaCentro {
+    vertical-align: middle;
+    color: #FFF;
+    font-size: 39px;
+    display: table-cell;
+}
+
+.boxInternet .rightCanais {
+    padding: 12px 0 0 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.rightCanais {
+    float: left;
+    width: 60%;
+    padding-left: 10px;
+}
+
+.boxCanais:hover {
+    border: 1px solid #47007A;
+}
+
+.formataImg{ float:left}
+
+
+h1.internas{ float: left; width: 100%; padding: 6px 0;
+    font-size: 2.7em;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'open_sansbold';background-color: #ff9900; padding: 15px 0; text-align: left; margin-top: 0 }
+
+
+
+.formularioPrincipal {
+    background: #C9C9C9;
+    float: left;
+    width: 100%;
+    padding-bottom: 7px;
+    margin-bottom: 0;
+}
+
+.formulario{ float: right;  width: 86%; margin-top: 30px}
+    .formularioPrincipal input[type=text] {    height: 41px;
+    border-radius: 6px;
+    border: 1px solid #ECECFB;
+    text-indent: 8px; font-size: 12px;}
+
+.formularioPrincipal input{width: 15.5%;
+    float: left;
+    margin: 0 0.2%;
+    position: relative;}
+
+    .formularioPrincipal input[type=submit] {
+    background: #660099;
+    color: #FFF;
+    text-transform: capitalize;
+    border: 2px solid #660099!important;
+    border-radius: 5px;
+    width: 110px;
+    padding: 5px;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    height: 41px;
+    cursor: pointer;
+}
+
+.formularioPrincipal input.ddd {
+    width: 4.5%;
+}
+
+.consultarCobertura {
+    float: left;
+    color: #660099;
+    font-family: 'OfficinaSerif_Bold';
+    font-size: 26px;
+    width: 100px;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+
+.formularioPrincipal input:last-child {
+    width: 110px;
+}
+
+.planosFormulario input{margin-bottom: 8px;}
+
+.planosFormulario .consultar{background: #660099;
+    color: #FFF;
+    text-transform: uppercase;
+    border: 2px solid #660099!important;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    font-size: 0.9em;
+    color: #fff;
+    display: block;
+    height: 41px;
+    border: none;
+    margin: 4% 0 0 0;}
+
+.planosFormulario .consultar:hover {
+    border: 2px solid #E3E900!important;
+}
+
+.obrigado {
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-size: 3em;
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: #99cc33;
+    font-weight: bold;
+    font-family: OfficinaSerif_Bold;
+}
+
+.entraremos {
+    float: left;
+    width: 100%;
+    font-size: 25px;
+    color: #660099;
+    text-align: left;
+    letter-spacing: -1px;
+    margin: 0 0 12px 0;
+    font-family: OfficinaSerif_Bold;
+}
+
+
+@media (max-width: 992px){
+
+    .topo .logo{ width: 100%; text-align:center; }
+    .topo .fone i{ display: none }
+    .topo .fone{ width: 100%; text-align: center; }
+    .fone .right{ width: 100%; text-align: center;  margin-right: 0; margin-left: 0}
+    .pacotesVivo { width: 100%;text-align: center; }
+    .controlaLarguraMin{ display: inline-block; float: initial; margin-right: 0 }
+
+
+    .consultarCobertura{ width: 100%; text-align: center; }
+    .formulario{ width: 100% }
+    .formulario input{ width: 100%!important; margin-bottom: 10px }
+}
+@media (max-width: 500px){
+
+.btnTelefoneLigamos{ display: none!important }
+}
